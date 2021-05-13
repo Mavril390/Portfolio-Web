@@ -1,0 +1,6 @@
+.footer__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(141, 141, 141);
+}

@@ -1,0 +1,9 @@
+.contact__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__content--btn {
+    margin-left: 20px;
+}

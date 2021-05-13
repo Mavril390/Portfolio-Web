@@ -1,0 +1,16 @@
+.about-me__skills {
+    height: 100%;
+    width: 100%;
+}
+
+.about-me__skills--language {
+    padding-left: 0;
+}
+
+.about-me__skills--language-list {
+    display: inline-block;
+}
+
+.about-me__skills--language-list-img {
+    height: 3rem;
+}

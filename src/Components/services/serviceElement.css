@@ -1,0 +1,27 @@
+.services__colum {
+    padding: 25px;
+    background-color: rgb(251, 207, 101);
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.services__colum--img {
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services__colum--text {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.services-text-title {
+    text-align: center;
+    color: rgb(0, 0, 0) !important;
+}
+
+.services__colum--text--description {
+    min-height: 9.5rem;
+}

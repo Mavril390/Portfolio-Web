@@ -1,0 +1,41 @@
+.fitness__colum {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.fitness__colum--img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    transition: all 0.5s ease-out;
+}
+
+.fitness__colum--text {
+    text-align: justify;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 40px;
+    transform: translateY(100%);
+    transition: all 0.5s ease-out;
+}
+
+.fitness__colum:hover .fitness__colum--text {
+    transform: translateY(0%);
+    visibility: visible;
+}
+
+.fitness__colum:hover .fitness__colum--img {
+    transform: scale(1.1);
+    max-height: 300px;
+}

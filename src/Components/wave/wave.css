@@ -1,0 +1,14 @@
+.wave{
+    height: 150px; 
+    overflow: hidden;
+}
+
+.wave__radio{
+    height: 100%; 
+    width: 100%;
+}
+
+.wave__radio-color{
+    stroke: none; 
+    fill: rgb(251, 207, 101);
+}
