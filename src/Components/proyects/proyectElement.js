@@ -16,7 +16,7 @@ function ProyectElement(){
                         <h3>Portfolio WEB</h3>
                         <p>HTML, CSS, JS, React.</p>
                         <a href="#proyects" style={{background: "#2fb4cc", color: "#fff"}}>Usted está aquí</a>
-                        <a href="">Ver en GitHub <i class="fab fa-github" style={{fontSize: "1.3em"}}></i></a>
+                        <a href="#">Ver en GitHub <i class="fab fa-github" style={{fontSize: "1.3em"}}></i></a>
                     </div>
                 </div>
             </div>
