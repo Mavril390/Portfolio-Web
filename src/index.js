@@ -17,9 +17,11 @@ ReactDOM.render(
             <Home />
             <AboutMe />
             <Proyects />
-            <Fitness />
-            <Services />
-            <Contact />
+            <div style={{backgroundImage: "-webkit-linear-gradient(0deg, #282355, #3a246a)", padding: "3em"}}>
+                <Fitness />
+                <Services />
+                <Contact />
+            </div>
         </main>
         <Footer />
     </body>,

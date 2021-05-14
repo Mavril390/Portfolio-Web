@@ -1,13 +1,7 @@
-.home {
-    height: 100vh;
-    background-color: rgb(251, 207, 101);
-}
-
 .home__complete-name {
     height: 100%;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
@@ -15,8 +9,10 @@
 .home__complete-name--Mauricio,
 .home__complete-name--Marinkovich {
     font-size: 10rem;
+    color: white;
 }
 
-.home__developer--frontend {
+.home__developer {
     font-size: 2rem;
+    color: white;
 }

@@ -5,7 +5,7 @@ function Contact(){
     return(
         <section className="contact container" id="contact">
             <div className="intro mt-5 mb-3">
-                <h2> 📞 Contacto </h2>
+                <h2 style={{color: "white"}}> 📞 Contacto </h2>
             </div>
             <div className="intro__text">
                 <p>Puedes contactarme en los lugares mencionados a continuación. Intentaré responderle lo más rápido que pueda.</p>

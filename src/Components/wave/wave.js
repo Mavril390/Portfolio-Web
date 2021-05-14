@@ -1,15 +1,29 @@
 import React from 'react';
+import CompleteName from '../CompleteName/complete-name'
 import './wave.css'
 
-function Wave(){
+function WaveAndCompleteName(){
     return(
-        <div className="wave">
-            <svg viewBox="0 0 500 150" preserveAspectRatio="none" className="wave__radio">
-                <path className="wave__radio-color" d="M-9.87,50.81 C119.92,210.69 271.49,-49.98 508.74,91.28 L500.00,0.00 L0.00,0.00 Z">
-                </path>
-            </svg>
+        <div className="header">
+            <div className="inner-header">
+                <CompleteName />
+            </div>
+            <div>
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <defs>
+                        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlinkHref="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                        <use xlinkHref="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                        <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                        <use xlinkHref="#gentle-wave" x="48" y="7" fill="#fff" />
+                    </g>
+                </svg>
+            </div>
         </div>
     )
 }
 
-export default Wave;
+export default WaveAndCompleteName;

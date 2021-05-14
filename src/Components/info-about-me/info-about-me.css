@@ -1,15 +1,11 @@
 .about-me__profile {
-    height: 150px;
-    width: 150px;
-    background-blend-mode: normal;
+    height: 260px;
+    width: 260px;
+    border-radius: 160px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 78px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 3px solid #666;
-    background-image: url(../../Images/About-me/Marinkovich\ Mauricio\ Yannick.jpg)
+    background-image: url(../../Images/About-me/MarinkovichMauricioYannick.jpg);
 }
 
 .about-me__info {

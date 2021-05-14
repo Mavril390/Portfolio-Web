@@ -1,0 +1,18 @@
+.Social{
+    display: contents;
+}
+
+.Social__icon{
+    margin-left: 10px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background: black;
+}
+
+.Social__icon:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+}
