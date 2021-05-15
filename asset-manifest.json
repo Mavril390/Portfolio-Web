@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio-Web/static/css/main.c4e769a8.chunk.css",
-    "main.js": "/Portfolio-Web/static/js/main.1d570d9e.chunk.js",
-    "main.js.map": "/Portfolio-Web/static/js/main.1d570d9e.chunk.js.map",
+    "main.css": "/Portfolio-Web/static/css/main.8b9c9bb2.chunk.css",
+    "main.js": "/Portfolio-Web/static/js/main.1cd4a561.chunk.js",
+    "main.js.map": "/Portfolio-Web/static/js/main.1cd4a561.chunk.js.map",
     "runtime-main.js": "/Portfolio-Web/static/js/runtime-main.485240fd.js",
     "runtime-main.js.map": "/Portfolio-Web/static/js/runtime-main.485240fd.js.map",
     "static/js/2.48a54330.chunk.js": "/Portfolio-Web/static/js/2.48a54330.chunk.js",
     "static/js/2.48a54330.chunk.js.map": "/Portfolio-Web/static/js/2.48a54330.chunk.js.map",
     "index.html": "/Portfolio-Web/index.html",
-    "static/css/main.c4e769a8.chunk.css.map": "/Portfolio-Web/static/css/main.c4e769a8.chunk.css.map",
+    "static/css/main.8b9c9bb2.chunk.css.map": "/Portfolio-Web/static/css/main.8b9c9bb2.chunk.css.map",
     "static/js/2.48a54330.chunk.js.LICENSE.txt": "/Portfolio-Web/static/js/2.48a54330.chunk.js.LICENSE.txt",
     "static/media/Creativity.0f4d2582.svg": "/Portfolio-Web/static/media/Creativity.0f4d2582.svg",
     "static/media/Dynamism.6aedbbbe.svg": "/Portfolio-Web/static/media/Dynamism.6aedbbbe.svg",
     "static/media/Good-practices.b1eca016.svg": "/Portfolio-Web/static/media/Good-practices.b1eca016.svg",
-    "static/media/info-about-me.css": "/Portfolio-Web/static/media/Marinkovich Mauricio Yannick.2aad2b79.jpg",
+    "static/media/info-about-me.css": "/Portfolio-Web/static/media/MarinkovichMauricioYannick.2aad2b79.jpg",
     "static/media/Organization.7fb276fb.jpg": "/Portfolio-Web/static/media/Organization.7fb276fb.jpg",
     "static/media/ProblemResolution.f7054978.JPG": "/Portfolio-Web/static/media/ProblemResolution.f7054978.JPG",
     "static/media/Responsive-design.5f6442de.svg": "/Portfolio-Web/static/media/Responsive-design.5f6442de.svg",
     "static/media/Teamwork.eacdbfc0.jpg": "/Portfolio-Web/static/media/Teamwork.eacdbfc0.jpg",
-    "static/media/TimeManagement.8822c8c8.jpg": "/Portfolio-Web/static/media/TimeManagement.8822c8c8.jpg"
+    "static/media/TimeManagement.8822c8c8.jpg": "/Portfolio-Web/static/media/TimeManagement.8822c8c8.jpg",
+    "static/media/wave.css": "/Portfolio-Web/static/media/pietro-jeng-n6B49lTx7NM-unsplash.c738fbdf.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.485240fd.js",
     "static/js/2.48a54330.chunk.js",
-    "static/css/main.c4e769a8.chunk.css",
-    "static/js/main.1d570d9e.chunk.js"
+    "static/css/main.8b9c9bb2.chunk.css",
+    "static/js/main.1cd4a561.chunk.js"
   ]
 }
