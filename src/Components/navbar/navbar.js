@@ -19,7 +19,7 @@ function Navbar(){
                     }
                     else{
                         return (
-                            <a key={index} className={item.cName} href={item.href}>{item.title}</a>
+                            <a key={index} className={item.cName} href={item.href}><i className={item.icon} style={{paddingRight: "10px"}}></i>{item.title}</a>
                         )
                     }
                 })}
