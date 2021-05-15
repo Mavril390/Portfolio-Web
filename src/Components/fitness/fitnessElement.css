@@ -1,41 +1,70 @@
-.fitness__colum {
-    height: 300px;
-    position: relative;
-    overflow: hidden;
-    border: 1px solid black;
-    border-radius: 5px;
-    font-size: 17px;
+.fitness__colum{
+    color: white;
+    transition: transform 500ms ease;
 }
 
-.fitness__colum--img {
-    height: 100%;
-    width: 100%;
+.fitness__colum--img{
     background-size: cover;
-    background-position: center;
-    margin: 0;
-    transition: all 0.5s ease-out;
+    padding: 10rem 0 0;
+    border-radius: .5rem;
+    overflow: hidden;
 }
 
-.fitness__colum--text {
-    text-align: justify;
+.fitness__colum--text{
+    --pading: 1.5rem;
+    padding: var(--pading);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 1)
+    );
+    transform: translateY(55%);
+    transition: transform 500ms ease;
+    transition-delay: 500ms;
+}
+
+.fitness__colum--text_title{
+    padding: 10px;
+    position: relative;
+    width: max-content;
+}
+
+.fitness__colum--text_title::after{
+    content: "";
     position: absolute;
+    height: 4px;
+    left: calc(var(--pading) * -1);
     bottom: 0;
-    left: 0;
-    width: 100%;
-    visibility: hidden;
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    padding: 40px;
-    transform: translateY(100%);
-    transition: all 0.5s ease-out;
+    width: calc(100% + var(--pading));
+    background: #bea187;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 500ms ease;
 }
 
-.fitness__colum:hover .fitness__colum--text {
-    transform: translateY(0%);
-    visibility: visible;
+.fitness__colum:hover, .fitness__colum:focus-within{
+    transform: scale(1.05);
 }
 
-.fitness__colum:hover .fitness__colum--img {
-    transform: scale(1.1);
-    max-height: 300px;
+.fitness__colum:hover .fitness__colum--text_title::after{
+    transform: scale(1)
+}
+
+.fitness__colum--text > *:not(.fitness__colum--text_title) {
+    opacity: 0;
+    transition: opacity 500ms linear;
+    transition-delay: 1000ms;
+}
+
+.fitness__colum:hover .fitness__colum--text > *{
+    opacity: 1;
+}
+
+.fitness__colum:hover .fitness__colum--text, .fitness__colum:focus-within .fitness__colum--text{
+    transform: translateY(0);
+    transition-delay: 500ms;
+}
+
+.fitness__colum:focus-within .fitness__colum--text{
+    transition-duration: 0ms;
 }

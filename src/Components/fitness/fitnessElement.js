@@ -11,7 +11,7 @@ function FitnessElement(){
                         <div class="fitness__colum">
                             <div key={index} className="fitness__colum--img" style={{backgroundImage: `url(${item.img})`}}>
                                 <div className="fitness__colum--text">
-                                    <h5 className="text-center">
+                                    <h5 className="text-center fitness__colum--text_title">
                                         {item.title}
                                     </h5>
                                     <p>
