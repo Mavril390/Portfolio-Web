@@ -10,6 +10,7 @@
     padding: 10rem 0 0;
     border-radius: .5rem;
     overflow: hidden;
+    width: 100%;
 }
 
 .fitness__colum--text{

@@ -10,7 +10,7 @@ function InfoAboutMe(){
             <div className="col-12 col-sm-12 col-md-12 col-lg-8 mb-4 about-me__info">
                 <div className="mb-3 mt-3">
                     <h1>
-                        SOBRE MI
+                        <i className="fas fa-address-card" style={{paddingRight: "20px"}}></i>SOBRE MI
                     </h1>
                 </div>
                 <div>

@@ -20,26 +20,24 @@
     transform: translateY(-3%)
 }
 
-.cardProyect img{
-    width: 100%;
-    height: 210px;
-    background-size: cover;
+.cardProyect__icon{
+    height: 200px;
 }
 
-.cardProyect .content{
+.cardProyect .cardProyect__contect{
     padding: 15px;
     text-align: center;
 }
 
-.cardProyect .content p{
+.cardProyect .cardProyect__contect p{
     line-height: 1.5;
 }
 
-.cardProyect .content h3{
+.cardProyect .cardProyect__contect h3{
     margin-bottom: 15px;
 }
 
-.cardProyect .content a{
+.cardProyect .cardProyect__contect a{
     text-decoration: none;
     display: inline-block;
     padding: 10px;
@@ -50,7 +48,7 @@
     width: 75%;
 }
 
-.cardProyect .content a:hover{
+.cardProyect .cardProyect__contect a:hover{
     background: #2fb4cc;
     color: #fff
 }

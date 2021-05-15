@@ -7,7 +7,7 @@ export const ServicesItems = [
     {
         img: Creativity,
         title: "Creatividad",
-        description: "Además resolver problemas de programación, me gusta mucho diseñar la UX/UI de los proyectos, es allí cuando puedo expresar toda mi creatividad.",
+        description: "Me gusta mucho diseñar la UX/UI de los proyectos, es allí cuando puedo expresar toda mi creatividad.",
     },
     {
         img: Dynamism,
