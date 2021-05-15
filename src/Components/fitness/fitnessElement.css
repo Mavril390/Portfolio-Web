@@ -5,6 +5,8 @@
 
 .fitness__colum--img{
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 10rem 0 0;
     border-radius: .5rem;
     overflow: hidden;
