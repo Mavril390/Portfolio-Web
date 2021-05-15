@@ -13,7 +13,7 @@ function AboutMe(){
                 <Skills />
             </div>
             <div className="mt-4 mb-5">
-                <a href="#" target="_black" className="button">
+                <a href="https://drive.google.com/file/d/165UCNcDQk5lNjmW4FEXzN6FIKpQ7TNMz/view?usp=sharing" download="CV Marinkovich Mauricio.pdf" target="_black" className="button">
                     Descargar CV
                 </a>
             </div>

@@ -23,6 +23,7 @@
 .cardProyect img{
     width: 100%;
     height: 210px;
+    background-size: cover;
 }
 
 .cardProyect .content{
@@ -46,6 +47,7 @@
     border: 1px solid #2fb4cc;
     border-radius: 4px;
     transition: all 400ms ease;
+    width: 75%;
 }
 
 .cardProyect .content a:hover{
