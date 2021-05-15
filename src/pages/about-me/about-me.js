@@ -2,6 +2,7 @@ import React from 'react'
 import InfoAboutMe from '../../Components/info-about-me/info-about-me'
 import Skills from '../../Components/skills/skills'
 import './about-me.css'
+import './about-me.css'
 
 function AboutMe(){
     return(
