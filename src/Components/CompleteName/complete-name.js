@@ -18,8 +18,9 @@ function CompleteName(){
                     <div className="col-12 col-lg-3 col-md-12 col-sm-12" style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                         <ul style={{paddingLeft: "0px"}}>
                             {SkillsItems.map((item, index) => {
+                                const className = `about-me__skills--language-list animate__animated animate__fadeInDown ${item.AnimationDuration}`
                                 return (
-                                    <li className="about-me__skills--language-list" key={index} style={{paddingRight: "20px"}}>
+                                    <li className={className} key={index} style={{paddingRight: "20px"}}>
                                         <i className={item.icon} style={{fontSize: "3em", color: `rgb(${item.rgb})`}}></i>
                                     </li>
                                 )

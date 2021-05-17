@@ -1,3 +1,7 @@
+.home{
+    overflow: hidden;
+}
+
 .home__complete-name {
     height: 100%;
     width: 100%;
