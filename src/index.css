@@ -74,6 +74,9 @@ h6 {
     .navbar {
         width: 75vw;
     }
+    .about-me__skills--language-list{
+        font-size: 0.8em;
+    }
 }
 
 @media (max-width:500px) {
