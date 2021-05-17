@@ -39,6 +39,13 @@ h6 {
     }
 }
 
+@media (max-width:1400px) {
+    .home__complete-name--Mauricio,
+    .home__complete-name--Marinkovich {
+        font-size: 7.5rem;
+    }
+}
+
 @media (max-width:1280px) {
     .home__complete-name--Mauricio,
     .home__complete-name--Marinkovich {
@@ -52,16 +59,10 @@ h6 {
     }
 }
 
-@media (max-width:800px) {
+@media (max-width: 1200px) {
     .home__complete-name--Mauricio,
     .home__complete-name--Marinkovich {
         font-size: 6rem;
-    }
-    .home__developer {
-        font-size: 1.7rem;
-    }
-    .navbar {
-        width: 60vw;
     }
 }
 
@@ -105,44 +106,34 @@ h6 {
     }
 }
 
-.animationDuration-2000ms{
-    display: inline-block;
-    animation: bounce;
-    animation-duration: 2000ms; 
+.AnimationDelay-2000ms{
+    animation-delay: 2000ms; 
 }
 
-.animationDuration-2500ms{
-    display: inline-block;
-    animation: bounce;
-    animation-duration: 2.5s; 
+.AnimationDelay-2500ms{
+    animation-delay: 2.5s; 
 }
 
-.animationDuration-3000ms{
-    display: inline-block;
-    animation: bounce;
-    animation-duration: 3000ms; 
+.AnimationDelay-3000ms{
+    animation-delay: 3000ms; 
 }
 
-.animationDuration-3500ms{
-    display: inline-block;
-    animation: bounce;
-    animation-duration: 3500ms; 
+.AnimationDelay-3500ms{
+    animation-delay: 3500ms; 
 }
 
-.animationDuration-4000ms{
-    display: inline-block;
-    animation: bounce;
-    animation-duration: 4000ms; 
+.AnimationDelay-4000ms{
+    animation-delay: 4000ms; 
 }
 
-.animationDuration-4500ms{
-    display: inline-block;
-    animation: bounce;
-    animation-duration: 4500ms; 
+.AnimationDelay-4500ms{
+    animation-delay: 4500ms; 
 }
 
-.animationDuration-5000ms{
-    display: inline-block;  
-    animation: bounce;
-    animation-duration: 5000ms; 
+.AnimationDelay-5000ms{
+    animation-delay: 5000ms; 
+}
+
+.AnimationDelay-5500ms{ 
+    animation-delay: 5500ms; 
 }
