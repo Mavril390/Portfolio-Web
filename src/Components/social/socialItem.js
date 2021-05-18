@@ -5,9 +5,9 @@ export const SocialItem = [
         icon: "fab fa-linkedin-in Social__icon",
     },
     {
-        name: "Instagram",
-        link: "https://www.instagram.com/mavril3/?hl=es-la/",
-        icon: "fab fa-instagram Social__icon",
+        name: "Mail",
+        link: "mailto:maumarinkovich@gmail.com",
+        icon: "fab fa-google Social__icon",
     },
     {
         name: "GitHub",
