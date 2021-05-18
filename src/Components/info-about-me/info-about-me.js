@@ -22,7 +22,7 @@ function InfoAboutMe(){
                     <div>
                         <p> ¡Hola! Me llamo Mauricio. </p>
                         <p>
-                            Soy un joven desarrollador de 20 años. 
+                            Soy un joven desarrollador de 21 años. 
                             Actualmente me encuentro cursando la carrera
                             <b> Licenciatura en Informática</b> en la
                             <b> Universidad Nacional de Quilmes (UNQ)</b>, 
