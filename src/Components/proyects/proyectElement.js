@@ -12,7 +12,7 @@ function ProyectElement(){
                 if(item.portfolio){
                     return(
                         <Fade left>
-                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 d-flex">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 d-flex mt-5">
                                 <div className="cardProyect">
                                     <div className="cardProyect__icon">
                                         <i className={item.icon} style={{display: "flex", justifyContent: "center", alignItems: "center", width: "100%", height: "100%", fontSize: "5em"}}></i>
@@ -30,7 +30,7 @@ function ProyectElement(){
                 }else{
                     return(
                         <Fade left>
-                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 d-flex">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 d-flex mt-5">
                                 <div className="cardProyect">
                                     <div className="cardProyect__icon">
                                         <i className={item.icon} style={{display: "flex", justifyContent: "center", alignItems: "center", width: "100%", height: "100%", fontSize: "5em"}}></i>

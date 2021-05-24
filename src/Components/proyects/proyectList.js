@@ -7,12 +7,11 @@ export const ProyectList = [
         PageLink: "#",
         portfolio: true,
     },
-    /*
     {
-        icon: "fas fa-briefcase",
-        title: "Portfolio WEB",
+        icon: "fas fa-cloud-showers-heavy",
+        title: "Clima",
         description: "HTML, CSS, JS, React.",
-        GHLink: "https://github.com/Mavril390/Portfolio-Web",
-        PageLink: "#",
-    },*/
+        GHLink: "https://github.com/Mavril390/Weather",
+        PageLink: "https://mavril390.github.io/Weather/",
+    },
 ]
