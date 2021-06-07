@@ -14,4 +14,11 @@ export const ProyectList = [
         GHLink: "https://github.com/Mavril390/Weather",
         PageLink: "https://mavril390.github.io/Weather/",
     },
+    {
+        icon: "fas fa-clipboard-check",
+        title: "Todo APP",
+        description: "HTML, CSS, JS, React.",
+        GHLink: "https://github.com/Mavril390/Todo-APP",
+        PageLink: "https://mavril390.github.io/Todo-APP/",
+    },
 ]
