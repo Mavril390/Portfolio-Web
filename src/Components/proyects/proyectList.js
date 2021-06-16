@@ -21,4 +21,10 @@ export const ProyectList = [
         GHLink: "https://github.com/Mavril390/Todo-APP",
         PageLink: "https://mavril390.github.io/Todo-APP/",
     },
+    {
+        icon: "fab fa-twitter",
+        title: "Twitter Clone",
+        description: "HTML, CSS, JS, React.",
+        programming: true,
+    },
 ]

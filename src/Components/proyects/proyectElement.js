@@ -7,30 +7,44 @@ import './proyectElement.css'
 
 function ProyectElement(){
     return(
-        <div className="row">
+        <div className="row" style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
             {ProyectList.map((item, index) => {
                 if(item.portfolio){
                     return(
                         <Fade left>
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 d-flex mt-5">
-                                <div className="cardProyect">
-                                    <div className="cardProyect__icon">
-                                        <i className={item.icon} style={{display: "flex", justifyContent: "center", alignItems: "center", width: "100%", height: "100%", fontSize: "5em"}}></i>
-                                    </div>
-                                    <div className="cardProyect__contect">
-                                        <h3>{item.title}</h3>
-                                        <p>{item.description}</p>
-                                        <a href={item.PageLink} style={{background: "#2fb4cc", color: "#fff"}}>Usted está aquí</a>
-                                        <a href={item.GHLink} target="_blank">Ver en GitHub <i class="fab fa-github" style={{fontSize: "1.3em"}}></i></a>
-                                    </div>
+                            <div className="cardProyect">
+                                <div className="cardProyect__icon">
+                                    <i className={item.icon} style={{display: "flex", justifyContent: "center", alignItems: "center", width: "100%", height: "100%", fontSize: "5em"}}></i>
+                                </div>
+                                <div className="cardProyect__contect">
+                                    <h3>{item.title}</h3>
+                                    <p>{item.description}</p>
+                                    <a href={item.PageLink} style={{background: "#2fb4cc", color: "#fff"}}>Usted está aquí</a>
+                                    <a href={item.GHLink} target="_blank">Ver en GitHub <i class="fab fa-github" style={{fontSize: "1.3em"}}></i></a>
+                                </div>
+                            </div>
+                        </Fade>
+                    )    
+                }
+                else if(item.programming == true){
+                    return(
+                        <Fade left>
+                            <div className="cardProyect">
+                                <div className="cardProyect__icon">
+                                    <i className={item.icon} style={{display: "flex", justifyContent: "center", alignItems: "center", width: "100%", height: "100%", fontSize: "5em"}}></i>
+                                </div>
+                                <div className="cardProyect__contect">
+                                    <h3>{item.title}</h3>
+                                    <p>{item.description}</p>
+                                    <b>En construcción...</b>
                                 </div>
                             </div>
                         </Fade>
                     )
-                }else{
+                }
+                else{
                     return(
                         <Fade left>
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 d-flex mt-5">
                                 <div className="cardProyect">
                                     <div className="cardProyect__icon">
                                         <i className={item.icon} style={{display: "flex", justifyContent: "center", alignItems: "center", width: "100%", height: "100%", fontSize: "5em"}}></i>
@@ -42,7 +56,6 @@ function ProyectElement(){
                                         <a href={item.GHLink} target="_blank">Ver en GitHub <i class="fab fa-github" style={{fontSize: "1.3em"}}></i></a>
                                     </div>
                                 </div>
-                            </div>
                         </Fade>
                     )
                 }
