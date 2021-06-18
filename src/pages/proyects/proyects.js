@@ -6,7 +6,7 @@ function Proyects(){
     return(
         <section className="proyects" id="proyects">
             <div className="container">
-                <div className="intro mt-5 mb-3">
+                <div className="intro mb-3 proyects--title">
                     <h2> 
                         <i className="fas fa-project-diagram" style={{paddingRight: "20px"}}></i>Mis Proyectos 
                     </h2>

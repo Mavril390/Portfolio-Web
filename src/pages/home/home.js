@@ -1,11 +1,11 @@
 import React from 'react'
-import WaveAndCompleteName from '../../Components/wave/wave'
+import CompleteName from '../../Components/CompleteName/complete-name'
 import './home.css'
 
 function Home(){
     return(
         <section className="home" id="home">
-            <WaveAndCompleteName />
+            <CompleteName />
         </section>
     )
 }

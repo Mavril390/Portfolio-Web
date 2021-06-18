@@ -1,22 +1,29 @@
-.home{
-    overflow: hidden;
+.home__complete-name{
+    margin: 10px;
+    padding: 15px;
+    color: white;
+    display: inline-block;
+    background-color: #731007;
+    filter: drop-shadow(8px 8px #9c5446);
 }
 
-.home__complete-name {
-    height: 100%;
-    width: 100%;
+.home__fullstack {
+    margin: 10px;
+    padding: 15px;
+    color: white !important;
+    display: inline-block;
+    background-color: #731007;
+    filter: drop-shadow(8px 8px #9c5446);
+}
+
+.home__skills{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
+    margin: 30vh 0;
 }
 
-.home__complete-name--Mauricio,
-.home__complete-name--Marinkovich {
-    font-size: 9rem;
-    color: white;
-}
-
-.home__developer {
-    font-size: 2rem;
-    color: white;
+.home__name{
+    margin: 30vh 0;
+    padding: 0;
 }

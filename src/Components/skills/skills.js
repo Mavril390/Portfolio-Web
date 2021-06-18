@@ -6,11 +6,6 @@ import './skills.css'
 function Skills(){
     return(
         <div className="about-me__skills mt-5 mb-3">
-            <Fade top>
-                <h3>
-                    Mis Habilidades
-                </h3>
-            </Fade>
             <div>
                 <ul style={{paddingLeft: "0px"}}>
                     {SkillsItems.map((item, index) => {
@@ -19,7 +14,7 @@ function Skills(){
                         return (
                             <li className={className} key={index} style={{paddingRight: "30px", paddingTop: "10px"}}>
                                 <i className={item.icon} style={{fontSize: "3em", color: `rgb(${item.rgb})`}}></i>
-                                <div>{item.skill}</div>
+                                <div style={{color: "black"}}>{item.skill}</div>
                             </li>
                             
                         )

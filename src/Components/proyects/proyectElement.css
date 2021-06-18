@@ -1,12 +1,4 @@
-.d-flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .cardProyect{
-    max-width: 260px;
-    min-height: 460px;
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
@@ -23,6 +15,10 @@
 
 .cardProyect__icon{
     height: 200px;
+}
+
+.cardProyect__contect--description{
+    font-size: 1.2rem;
 }
 
 .cardProyect .cardProyect__contect{
@@ -43,13 +39,15 @@
     display: inline-block;
     padding: 10px;
     margin-top: 10px;
-    border: 1px solid #2fb4cc;
+    border: 1px solid #9c5446;
+    background-color: #9c5446;
+    color: white;
     border-radius: 4px;
     transition: all 400ms ease;
     width: 75%;
 }
 
 .cardProyect .cardProyect__contect a:hover{
-    background: #2fb4cc;
+    background: #731007;
     color: #fff
 }

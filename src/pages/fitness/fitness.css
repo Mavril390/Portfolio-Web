@@ -1,3 +1,12 @@
 .fitness{
     padding-top: 20px;
 }
+
+.fitness--title{
+    margin-top: 70px;
+    padding: 15px;
+    background-color: #731007;
+    filter: drop-shadow(8px 8px #9c5446);
+    display: flex;
+    justify-content: center;
+}

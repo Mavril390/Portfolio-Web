@@ -12,14 +12,14 @@ function InfoAboutMe(){
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-8 mb-4 about-me__info">
                 <Fade top>
-                    <div className="mb-3 mt-3">
-                        <h1>
+                    <div className="mb-3 mt-3 about-me__info--title">
+                        <h1 style={{margin: "0"}}>
                             <i className="fas fa-address-card" style={{paddingRight: "20px"}}></i>SOBRE MI
                         </h1>
                     </div>
                 </Fade>
                 <Fade>
-                    <div>
+                    <div className="about-me__info--description">
                         <p> ¡Hola! Me llamo Mauricio. </p>
                         <p>
                             Soy un joven desarrollador de 21 años. 

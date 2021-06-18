@@ -9,6 +9,18 @@
 }
 
 .about-me__info {
-    color: #868e96;
+    color: black;
     text-align: center;
+}
+
+.about-me__info--title{
+    padding: 15px;
+    background-color: #731007;
+    filter: drop-shadow(8px 8px #9c5446);
+    display: flex;
+    justify-content: center;
+}
+
+.about-me__info--description{
+    font-size: 1.3rem;
 }

@@ -1,8 +1,9 @@
 .services__colum {
     padding: 25px;
-    background-color: rgb(251, 207, 101);
+    background-color: #d1b1a9;
     border-radius: 25px;
     color: rgb(0, 0, 0);
+    box-shadow: 0px 0px .5px .5px black;
 }
 
 .services__colum--img {

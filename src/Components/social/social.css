@@ -9,11 +9,11 @@
     padding: 10px;
     border-radius: 25px;
     border: 1px solid white;
-    background: black;
+    background: #9c5446;
 }
 
 .Social__icon:hover{
-    background: white;
-    color: black;
+    background: #731007;
+    color: white;
     cursor: pointer;
 }

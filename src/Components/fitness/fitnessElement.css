@@ -39,7 +39,7 @@
     left: calc(var(--pading) * -1);
     bottom: 0;
     width: calc(100% + var(--pading));
-    background: #bea187;
+    background: #9c5446;
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 500ms ease;
