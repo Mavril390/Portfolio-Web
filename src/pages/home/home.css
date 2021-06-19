@@ -1,3 +1,10 @@
+.home{
+    background-image: url('../../Images/Home/Fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 .home__complete-name{
     margin: 10px;
     padding: 15px;
