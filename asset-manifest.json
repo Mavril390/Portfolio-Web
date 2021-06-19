@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-Web/static/css/main.eac67470.chunk.css",
+    "main.css": "/Portfolio-Web/static/css/main.39927c5c.chunk.css",
     "main.js": "/Portfolio-Web/static/js/main.52cbfce6.chunk.js",
     "main.js.map": "/Portfolio-Web/static/js/main.52cbfce6.chunk.js.map",
     "runtime-main.js": "/Portfolio-Web/static/js/runtime-main.485240fd.js",
@@ -8,10 +8,11 @@
     "static/js/2.63f5183b.chunk.js": "/Portfolio-Web/static/js/2.63f5183b.chunk.js",
     "static/js/2.63f5183b.chunk.js.map": "/Portfolio-Web/static/js/2.63f5183b.chunk.js.map",
     "index.html": "/Portfolio-Web/index.html",
-    "static/css/main.eac67470.chunk.css.map": "/Portfolio-Web/static/css/main.eac67470.chunk.css.map",
+    "static/css/main.39927c5c.chunk.css.map": "/Portfolio-Web/static/css/main.39927c5c.chunk.css.map",
     "static/js/2.63f5183b.chunk.js.LICENSE.txt": "/Portfolio-Web/static/js/2.63f5183b.chunk.js.LICENSE.txt",
     "static/media/Creativity.0f4d2582.svg": "/Portfolio-Web/static/media/Creativity.0f4d2582.svg",
     "static/media/Dynamism.6aedbbbe.svg": "/Portfolio-Web/static/media/Dynamism.6aedbbbe.svg",
+    "static/media/home.css": "/Portfolio-Web/static/media/Fondo.36b73445.jpg",
     "static/media/Good-practices.b1eca016.svg": "/Portfolio-Web/static/media/Good-practices.b1eca016.svg",
     "static/media/info-about-me.css": "/Portfolio-Web/static/media/MauricioMarinkovich.9a6e7b3f.jpg",
     "static/media/Organization.7fb276fb.jpg": "/Portfolio-Web/static/media/Organization.7fb276fb.jpg",
@@ -23,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.485240fd.js",
     "static/js/2.63f5183b.chunk.js",
-    "static/css/main.eac67470.chunk.css",
+    "static/css/main.39927c5c.chunk.css",
     "static/js/main.52cbfce6.chunk.js"
   ]
 }
